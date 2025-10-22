@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click With Hajra!</title>
+  <link rel="stylesheet" href="cd.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎯 Click 50 times in 15 seconds to win!</h1>
+    <p>Time Left: <span id="timer">15</span> seconds</p>
+    <p>Clicks: <span id="click-count">0</span></p>
+    <p id="message"></p>
+
+    <div class="buttons">
+      <button id="start-btn">Start Game</button>
+      <button id="click-btn" disabled>Click with Hajra!</button>
+      <button id="restart-btn" style="display: none;">Play Again 🔁</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="cd.js"></script>
+</body>
+</html>
